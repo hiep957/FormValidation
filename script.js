@@ -34,8 +34,7 @@ myForm.addEventListener('submit', (event) => {
             email: document.getElementById('email').value.trim(),
             password: document.getElementById('password').value.trim()
         });
-        // Perform form submission here
-        // You can either send an AJAX request or use `myForm.submit();` after the console.log
+        
     }
 });
 
